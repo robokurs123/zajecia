@@ -9,10 +9,10 @@ const Nav = () => {
 
   return (
     <div>
-        <div className='container flex justify-between mx-auto items-center border-green-200 border-[1px]' >
+        <div className='relative container flex justify-between mx-auto items-center border-green-200' >
 
-            <div className='text-white  text-2xl p-4'>
-                <h1 >Site</h1>
+            <div className='mx-auto text-white text-2xl p-4'>
+                <h1 className='' >Kurs robotyki i elektroniki</h1>
             </div>
 
             { showMenu &&
@@ -24,7 +24,7 @@ const Nav = () => {
             </ul>
            
             }
-            <div className='text-white border-white border-[0.5px] px-2 mr-3 '>
+            <div className='absolute right-2 text-white border-white border-[0.5px] px-2 z-10'>
                 <button onClick={handleMenu}>=</button>
             </div>
 
