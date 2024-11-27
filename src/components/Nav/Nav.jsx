@@ -24,8 +24,10 @@ const Nav = () => {
             </ul>
            
             }
-            <div className='absolute right-2 text-white border-white border-[0.5px] px-2 z-10'>
-                <button onClick={handleMenu}>=</button>
+            <div className='flex items-center justify-center absolute right-2 h-[30px] w-[30px] rounded-xl text-center bg-gradient-to-b from-transparent to-gray-100'>
+              <div className=' text-white rounded-md z-10 w-3/4'>
+                  <button onClick={handleMenu}>=</button>
+              </div>
             </div>
 
  
